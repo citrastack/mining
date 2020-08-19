@@ -1,0 +1,18 @@
+# Donwload File
+wget https://github.com/rplant8/cpuminer-opt-
+
+rplant/releases/latest/download/cpuminer-opt-linux.tar.gz 
+
+# extrak file
+tar xf cpuminer-opt-linux.tar.gz 
+
+# Run Mining
+while [ 1 ]; do ./cpuminer-sse2 -a power2b -o stratum
+
++tcp://power2b.mine.zergpool.com:7445 -u 
+
+ltc1q8amkfj8rm05guxv59c3r6m6n23gp6l0r7g5yh9 -p c=LTC,mc=MBC -t2
+sleep 2
+done
+
+# selesai
